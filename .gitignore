@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# IDE файлы
+.vscode/
+.idea/
+
+# База данных SQLite (если используете файловую БД)
+*.sqlite
+*.db
