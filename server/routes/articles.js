@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Article, Block, Image } = require('../models');
+const { Article, Block, Image } = require('../models/index');
 
 // Создание статьи
 router.post('/', async (req, res) => {
